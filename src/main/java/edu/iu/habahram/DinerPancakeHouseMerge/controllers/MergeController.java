@@ -25,6 +25,7 @@ public class MergeController {
         this.pancakeHouseRepository = pancakeHouseRepository;
     }
 
+    //need method to loop over items
     @GetMapping
     public List<MenuItem> getMergedMenu() {
         // Convert Diner menu array to list
