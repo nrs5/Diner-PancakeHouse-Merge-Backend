@@ -31,7 +31,7 @@ public class MergerController {
     }
 
     @GetMapping
-    public List<MenuItem> get() {
+    public List<MenuItem> get() {//update here
         List<MenuItem> menuItems = new ArrayList<>();
         Iterator<MenuItem> lunchItems =
                 dinerRepository.getTheMenuIterator();
